@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #f4faff;
+}
+
+.container {
+  margin: 50px auto;
+  justify-content: center;
+  width: 700px;
+  border-radius: 10px;
+  background-color: rgb(105, 72, 115);
+}
+
+.container h1{
+  padding: 10px 26%;
+  margin: auto;
+}
+
+.envio {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.adicionar{
+  width: 50px;
+  height: 50px;
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.adicionar:hover{
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+.adicionar:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.input{
+  width: 400px;
+  font-size: 2em;
+  border-radius: 10px;
+  background-color: #638475;
+}
+
+.input:focus{
+  outline: none;
+}
+
+ul {
+  margin: auto 10%;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  font-size:1.5em;
+  padding: 15px;
+  color: black;
+}
+
+.notChecked{
+  margin-right: 120px;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.checked{
+  align-self: center;
+  justify-self: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 120px;
+  background-color: black;
+  color: white;
+}
+
+.remover{
+  background-color: black;
+  color: white;
+  margin: 15px 0 20px 500px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.remover:hover{
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+.remover:active {
+  background-color: black;
+  transform: translateY(4px);
+}
+
+.enabled{
+  text-decoration: line-through;
+}
+
+
+
+
